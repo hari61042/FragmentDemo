@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="0.1">
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Flipkart"
+
+                android:onClick="load"
+
+                android:id="@+id/flipkart"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Amazon"
+
+                android:onClick="load"
+
+                android:id="@+id/amazon"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Myntra"
+
+                android:onClick="load"
+
+                android:id="@+id/myntra"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Snapdeal"
+                android:id="@+id/snapdeal"
+                android:onClick="load"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Github"
+                android:id="@+id/github"
+
+                android:onClick="load"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Placements"
+
+                android:onClick="load"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Nacre"
+
+                android:onClick="load"/>
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="ContactUs"
+
+                android:onClick="load"/>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="0.85"
+
+        android:id="@+id/frag1" />
+
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="0.05"
+
+        android:text="© - Charitha Solutions - 2018"
+
+        android:textStyle="bold"
+
+        android:textSize="20sp"
+
+        android:layout_gravity="center"
+
+        />
+
+
+
+
+
+</LinearLayout>
